@@ -37,5 +37,5 @@ jobs:
          git config user.email "${{ secrets.GIT_EMAIL }}"
          git add .
          git commit -m "Deploying to gh-pages from @ $GITHUB_SHA in $(date +"%Y年%m月%d日 %T %Z")"
-         git push -f https://wangwen112255:${{ secrets.ACCESS_TOKEN }}@github.com/wangwen112255/vuepress-blog.git master:gh-pages         
+         git push -f https://wangwen112255:${{ secrets.ACCESS_TOKEN }}@github.com/wangwen112255/vuepress-blog.git master:master         
           
