@@ -87,8 +87,8 @@ module.exports = [
         clientID: 'ee4812f4bfdd1e7f8825',
         clientSecret: 'b9423ef54359f5940f64d9f4cb5d0f7aae6f580f',
         repo: 'git-talk', // GitHub 仓库
-        owner: 'Wangwin', // GitHub仓库所有者
-        admin: ['Wangwin'], // 对仓库有写权限的人
+        owner: 'wangwen112255', // GitHub仓库所有者
+        admin: ['wangwen112255'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
