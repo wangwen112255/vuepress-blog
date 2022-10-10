@@ -73,7 +73,7 @@ module.exports = [
     items: [
       { text: '分类', link: '/categories/' },
       { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
+      { text: '归档数据', link: '/archives/' },
     ],
   },
 ]
