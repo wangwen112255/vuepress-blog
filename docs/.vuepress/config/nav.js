@@ -1,7 +1,6 @@
 // nav
 module.exports = [
   { text: '首页', link: '/' },
-
   {
     text: '🅿󠁁🇭🅿后端',
     link: '/frame/',
@@ -13,23 +12,17 @@ module.exports = [
       { text: 'php', link: '/note/php/' },
     ],
   },
+  // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
   {
-    text: '🧱前端',
-    link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    text: '前端',
     items: [
-      // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
-      {
-        text: '前端',
-        items: [
-          { text: 'HTML', link: '/web/html/' },
-          { text: 'CSS', link: '/web/css/' },
-          { text: 'JavaScript', link: '/web/javasript/' },
-          { text: 'Vue', link: '/web/vue/' },
-          { text: 'ES6', link: '/web/es6/' },
-          { text: 'Node', link: '/web/node/' },
-          { text: '小程序', link: '/web/wxapp/' },
-        ],
-      },
+      { text: 'HTML', link: '/web/html/' },
+      { text: 'CSS', link: '/web/css/' },
+      { text: 'JavaScript', link: '/web/javasript/' },
+      { text: 'Vue', link: '/web/vue/' },
+      { text: 'ES6', link: '/web/es6/' },
+      // { text: 'Node', link: '/web/node/' },
+      { text: '小程序', link: '/web/wxapp/' },
     ],
   },
   {
@@ -39,6 +32,7 @@ module.exports = [
       { text: 'Mysql', link: '/database/mysql/' },
       { text: 'Redis', link: '/database/redis/' },
       { text: 'Es', link: '/database/es' },
+      { text: 'MongoDb', link: '/database/mongodb' },
     ],
   },
   {
@@ -58,7 +52,7 @@ module.exports = [
     items: [
       { text: '开发实战', link: '/technology/skill/' },
       { text: '开发工具类', link: '/technology/tool/' },
-      { text: '其他工具类', link: '/technology/other/' },
+      // { text: '其他工具类', link: '/technology/other/' },
     ],
   },
   {
