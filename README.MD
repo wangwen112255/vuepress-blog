@@ -79,7 +79,15 @@ fi
 
 ```
 
+##  重要问题:宝塔进行hook打包操作是失效时候，添加软连接即可/sudo运行npm/node出现找不到命令情况
 
-
+突然想起一句话，凡事有果必有因，于是乎开始回忆整个安装过程，下载tar包，解压tar包，这一切都是在普通用户下进行的，宝塔的软件是在普通用户下进行的，所以/usr/bin目录下并没有npm/node的启动文件，所以很好解决，将启动文件软链接到/usr/bin下面就好
+### 解决方案
+webhook操作/usr/bin目录下并没有npm/node的启动文件，所以很好解决，将启动文件软链接到/usr/bin下面就好了
+```shell
+sudo ln -s /www/server/nvm/versions/node/v16.17.1/bin/node
+ /usr/bin/node
+sudo ln -s /www/server/nvm/versions/node/v16.17.1/bin/npm /usr/bin/npm
+```
 
 
