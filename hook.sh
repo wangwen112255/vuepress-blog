@@ -17,9 +17,7 @@ gitHttp="git@gitee.com:wangwen112255/$1.git"
 #branch
 branch="master"
 if [ -n "$2" ]; then
-	branch=$2
-	else
-	branch="master"
+	branch="$2"
 fi
 #执行脚本
 buildScript="build.sh"
