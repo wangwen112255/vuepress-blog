@@ -98,6 +98,8 @@ sudo ln -s /www/server/nvm/versions/node/v16.17.1/bin/node
  /usr/bin/node
 sudo ln -s /www/server/nvm/versions/node/v16.17.1/bin/npm /usr/bin/npm
 ```
+## 123  
+
 
 
 
