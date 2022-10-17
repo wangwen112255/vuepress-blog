@@ -29,7 +29,7 @@ Copyright (c) 2021-present Amerys
 ```shell
 
 #!/bin/bash
-echo "代码拉取"
+echo ""
 # 输出当前时间
 date --date='0 days ago' "+%Y-%m-%d %H:%M:%S"
 echo "Start"
@@ -45,13 +45,7 @@ gitPath="/www/wwwroot/$1"
 # git 网址
 gitHttp="git@gitee.com:wangwen112255/$1.git"
 #branch
-if [  -n "$2" ];
-then
-branch=$2
-else
 branch="master"
-fi
-
 #执行脚本
 buildScript="build.sh"
 echo "Web站点路径：$gitPath"
@@ -104,5 +98,6 @@ sudo ln -s /www/server/nvm/versions/node/v16.17.1/bin/node
  /usr/bin/node
 sudo ln -s /www/server/nvm/versions/node/v16.17.1/bin/npm /usr/bin/npm
 ```
+
 
 
