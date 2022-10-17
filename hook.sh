@@ -1,5 +1,6 @@
+
 #!/bin/bash
-echo "hello word"
+echo "项目参数------$1-------"
 # 输出当前时间
 date --date='0 days ago' "+%Y-%m-%d %H:%M:%S"
 echo "Start"
@@ -10,21 +11,26 @@ echo "param"
 echo "End"
 exit
 fi
+array=(${1//-/ }) 
+#仓库名称
+name=${array[0]}
 #git项目路径
-gitPath="/www/wwwroot/$1"
+gitPath="/www/wwwroot/$name"
 # git 网址
-gitHttp="git@gitee.com:wangwen112255/$1.git"
+gitHttp="git@gitee.com:wangwen112255/$name.git"
 #branch
 branch="master"
-if [ -n "$2" ]; then
-	branch="$2"
-fi
+
 #执行脚本
 buildScript="build.sh"
+#修改
+if [ -n "${array[1]}" ];
+then
+branch=${array[1]}
+fi
 
 echo "Web站点路径：$gitPath"
 
- 
 # 判断项目路径是否存在
 if [ -d "$gitPath" ]; then
 cd $gitPath
@@ -36,7 +42,7 @@ mv gittemp/.git .
 rm -rf gittemp
 fi
 # 拉取最新的项目文件
-echo "开始拉取代码"
+echo "开始拉取代码,分支:$branch,仓库名称:$name"
 git reset --hard $branch
 git pull origin $branch
 echo "拉取完成"
