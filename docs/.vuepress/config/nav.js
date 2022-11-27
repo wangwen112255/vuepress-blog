@@ -43,7 +43,8 @@ module.exports = [
       { text: 'Composer', link: '/dev/composer/' },
       { text: 'Linux', link: '/dev/linux/' },
       { text: 'Nginx', link: '/dev/nginx/' },
-      { text: 'Docker', link: '/dev/docker/' },
+      { text: 'Docker', link: '/dev/docker/'},
+      { text: 'Vpn', link: '/dev/vpn/' },
     ],
   },
   {
