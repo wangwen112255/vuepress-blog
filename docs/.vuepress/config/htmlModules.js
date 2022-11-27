@@ -28,7 +28,7 @@ module.exports = {
       font-weight: bold;
       margin: 0 0 8px 0;
     ">公众号</p>
-    <img src="https://cdn.jsdelivr.net/gh/wangwen112255/pic@master/qrcode_for_gh_f1621dcbf8dc_344.5et0ljyn3po0.jpg"  style="width:100%;" />
+    <img src="http://file.wowoxia.club/qrcode_for_gh_f1621dcbf8dc_344.5et0ljyn3po0.jpg"  style="width:100%;" />
     <p>
      一起学习，一起成长叭。    
     </p>
