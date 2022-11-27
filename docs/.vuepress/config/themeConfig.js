@@ -27,7 +27,7 @@ module.exports = {
   // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
   // bodyBgImg: 'https://cdn.jsdelivr.net/gh/Chubby-Duner/image-hosting@master/blog/pc.png',
-  // bodyBgImg: 'https://raw.githubusercontent.com/wangwen112255/pic/master/pc.png',
+  bodyBgImg: 'http://file.wowoxia.club/question-mark-1872665_1920.jpg',
  
   // bodyBgImg: [
   //   'https://cdn.jsdelivr.net/gh/Chubby-Duner/image-hosting@master/blog/pc.png',
