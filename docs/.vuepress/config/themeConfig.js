@@ -59,7 +59,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://cdn.jsdelivr.net/gh/wangwen112255/pic@master/1635479059633_dae9a4aba4df.2gxa0f2sw5g0.jpg',
+    avatar: '',
     name: '窝窝侠',
     slogan: 'never give up',
   },
